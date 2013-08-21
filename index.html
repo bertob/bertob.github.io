@@ -1,0 +1,59 @@
+---
+layout: default
+title: Tobias Bernard
+---
+
+              
+      <h1 class="huge">Hi, I'm Tobias. I design
+      brands, interfaces, icons and other cool stuff.</h1>
+
+      <div class="workitemrow">
+      <div class="clear"></div>
+      {% assign sideprojects = 0 %}
+      {% assign counter = '.' %}
+      {% for post in site.posts %}
+        {% if post.category != 'sideproject' %}
+          {% if counter.size >= 4 %}
+            {% assign counter = '.' %}
+            </div> <!-- end workitemrow -->
+            <div class="clear"></div>
+            
+            <div class="workitemrow">
+            <div class="clear"></div>
+          {% endif %}          
+{% include workitem.html %}
+          {% capture counter %}{{ counter | append:'.' }}{% endcapture %}
+        {% endif %}
+        {% if post.category == 'sideproject' %}
+          {% assign sideprojects = 1 %}
+        {% endif %}
+        
+      {% endfor %}
+          </div> <!-- end workitemrow -->
+          <div class="clear"></div>
+
+      {% if sideprojects == 1 %}
+        
+        <h3 class="small header">Side Projects:</h3>
+                    
+        <div class="workitemrow">
+        <div class="clear"></div>
+        {% assign counter = '.' %}
+        {% for post in site.posts %}
+          {% if post.category == 'sideproject' %}
+            {% if counter.size >= 4 %}
+              {% assign counter = '.' %}
+              </div> <!-- end workitemrow -->
+              <div class="clear"></div>
+              
+              <div class="workitemrow">
+              <div class="clear"></div>
+            {% endif %}          
+{% include workitem.html %}
+            {% capture counter %}{{ counter | append:'.' }}{% endcapture %}
+          {% endif %}
+        {% endfor %}
+              </div> <!-- end workitemrow -->
+              <div class="clear"></div>
+      {% endif %}
+{% include contactbtn.html %}

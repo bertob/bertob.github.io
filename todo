@@ -1,0 +1,27 @@
+General:
+	- Mobile issues
+	- CSS Reset
+	- Freedom Link
+
+Content:
+	- Inori
+	- Flying Sheep: mit Lorenzo reden
+	- Trelby: 2. bild
+	
+Domain & Hosting:
+	- Email adresse einrichten und weiterleiten: hi@tobiasbernard.com
+	- Inhalte in Repo stellen
+	- Domains umstellen:	tobiasbernard.com 	   --> jekyll
+							blog.tobiasbernard.com --> wordpress
+
+Browser compatibility problems:
+	- Internet Explorer 9
+		* borders around stuff
+		* lots of other issues
+		* fuck this shit ?
+	- Not Tested:
+		* Firefox: OSX
+		* Chrome: OSX
+		* Safari: OSX
+		* Opera: GNU/L, Windows, OSX
+		* IE 8: Windows
