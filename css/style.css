@@ -32,6 +32,8 @@ div#wrap p > a:hover {
 footer a:hover {
 	background-color: #ddd;
 }
+.contact a:hover {
+	background-color: #ddd;
 }
 a.workitem {
 	text-decoration: none;
