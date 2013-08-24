@@ -94,15 +94,6 @@ p img {
 	-webkit-border-radius: 40px;
 	text-decoration: none;
 }
-.contactbtn {
-	margin: 80px auto 0px;
-	height: 40px;
-	width: 178px;	
-}
-div.contactbtn > * {
-	text-align: center;
-	padding: 10px 30px;
-}
 .contact {
 	text-align: center;
 	padding: 10px 30px !important;
