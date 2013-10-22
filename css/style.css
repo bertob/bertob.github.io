@@ -3,7 +3,7 @@
 	font-family: "Open Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
 	color: #666;
 }
-p {
+p, ul > li {
 	font-size: 1.25em;
 	line-height: 1.7em;
 }
@@ -345,7 +345,7 @@ h1.header {
 	width: 100%;
 	height: auto;
 }
-p {
+p, ul > li {
 	font-size: 1.15em;
 }
 .huge {
@@ -367,7 +367,7 @@ div#wrap p {
 .workitemrow {
 	width: 85%;
 }
-p {
+p, ul > li {
 	font-size: 1.06em;
 }
 .huge {
