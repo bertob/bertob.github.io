@@ -232,8 +232,8 @@ footer {
 /*        M E D I A   Q U E R I E S         */
 /*##########################################*/
 @media screen and (max-width: 820px) {
-.wrap {
-	width: 100%;
+div#wrap {
+	margin-top: 0;
 }
 .workitemrow {
 	margin-top: 40px !important;
