@@ -3,6 +3,9 @@
 	font-family: "Open Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
 	color: #666;
 }
+body {
+	font-size: 16px;
+}
 p, ul > li {
 	font-size: 1.25em;
 	line-height: 1.7em;
@@ -75,13 +78,15 @@ a.workitem {
 }
 p img {
 	width: 100%;
+	margin-top: 1em;
 }
 .imgcaption {
 	font-size: 1.15em;
 	font-style: italic;
 	line-height: 1.5em;
 	color: #666;
-	margin-top: -20px;
+	margin-top: -12px;
+	margin-bottom: 1em;
 }
 .nocaptionimg {
 	margin-top: 15px;
@@ -325,7 +330,7 @@ h1.header {
 .workitemrow {
 	width: 70%;
 	height: auto;
-	margin: 0px auto;
+	margin: 0px auto !important;
 }
 .workitem {
 	display: block;
