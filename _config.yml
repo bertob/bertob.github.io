@@ -1,1 +1,12 @@
+# Site settings
+title: Tobias Bernard
+email: hi@tobiasbernard.com
+description: ""
+baseurl: ""
+url: "http://tobiasbernard.com"
+twitter_username: iambertob
+github_username:  bertob
+
+# Build settings
+markdown: kramdown
 permalink: /:title

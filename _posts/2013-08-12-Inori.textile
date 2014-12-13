@@ -1,0 +1,51 @@
+---
+layout: default
+title: Inori
+subtitle: Brand identity for a programming language
+client: Inori Project
+role: Brand Identity Design
+year: 2013
+image: assets/thumbnails/inori.png
+category: branding
+---
+
+h1(page-title). {{ page.title }}
+
+h4(page-subtitle). {{ page.subtitle }}
+
+!(page-header-img)/assets/thumbnails/inori.png(header image)!
+
+<div class="text">
+
+p(smallinfo). _*Role:* {{ page.role }}
+*Year:* {{ page.year }}_
+
+"Inori":https://github.com/inori-lang is a programming language project by a friend of mine. It is really more of an experiment than an actual language, because it implements a lot of new and untested concepts and the specification is constantly changing. I was asked to design a logo for it to use on GitHub and social media, but ended up doing a lot more than that because it was such a fun process.
+
+<figure>
+  <img src="/assets/inori-values.png" alt="Inori Values" />
+</figure>
+
+The developers wanted something simple and fun, possibly with a japanese vibe to fit the name's origin. They also wanted the identity to reflect some of the design goals of the language and the project's optimistic, excited outlook on the future.
+
+<figure>
+  <img src="/assets/inori-intro.png" alt="Inori Introduction" />
+</figure>
+
+I ended up going for a visual style that's pretty retro, with something of a space age feel. To make it look a bit more contemporary, I combined that with a strong palette and James T. Edmondson's excellent "Mission Gothic":http://www.losttype.com/font/?name=missiongothic.
+
+<figure>
+  <img src="/assets/inori-logo.png" alt="Inori Logo" />
+</figure>
+
+<figure>
+  <img src="/assets/inori-palette.png" alt="Inori Color Palette" />
+</figure>
+
+<figure>
+  <img src="/assets/inori-examples.png" alt="Inori Examples" />
+</figure>
+
+You can check out the complete brand identity guidelines "here":https://speakerdeck.com/bertob/inori-brand-book.
+
+</div>

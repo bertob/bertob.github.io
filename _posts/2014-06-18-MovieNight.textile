@@ -1,0 +1,87 @@
+---
+layout: default
+title: Unibz Movie Night
+subtitle: Series of movie posters
+client: Unibz Movie Night
+role: Poster & Identity Design
+year: 2014
+image: assets/thumbnails/movienight.png
+category: print
+---
+
+h1(page-title). {{ page.title }}
+
+h4(page-subtitle). {{ page.subtitle }}
+
+!(page-header-img)/assets/thumbnails/movienight.png(header image)!
+
+<div class="text">
+
+p(smallinfo). *Role:* {{ page.role }}
+*Year:* {{ page.year }}
+
+_Unibz Movie Night_ is a student event at the Free University of Bolzano organized by the student organization Kikero.
+
+During the spring semester of 2014, there were 14 movie screenings on a more or less weekly basis. I designed custom posters for each of the screenings, which were used to promote the events throughout the university and online.
+
+It was a fun project for me, because I had creative control over practically everything; from the identity, to the layout, to the individual illustrations on the posters.
+
+The process of printing the posters regularly was also interesting. It definitely made me appreciate the web as a medium more, where jammed printers, color profiles and the like aren't an issue.
+
+<figure class="fig-half fig-left">
+  <img src="/assets/reservoir-dogs.png" alt="Reservoir Dogs Poster" />
+</figure>
+<figure class="fig-half">
+  <img src="/assets/strangelove.png" alt="Dr. Strangelove Poster" />
+</figure>
+<div class="clear"></div>
+
+<figure class="fig-half fig-left">
+  <img src="/assets/drive.png" alt="Drive Poster" />
+</figure>
+<figure class="fig-half">
+  <img src="/assets/memento.png" alt="Memento Poster" />
+</figure>
+<div class="clear"></div>
+
+<figure class="fig-half fig-left">
+  <img src="/assets/gold-rush.png" alt="Gold Rush Poster" />
+</figure>
+<figure class="fig-half">
+  <img src="/assets/brick.png" alt="Brick Poster" />
+</figure>
+<div class="clear"></div>
+
+<figure class="fig-half fig-left">
+  <img src="/assets/donnie-darko.png" alt="Donnie Darko Poster" />
+</figure>
+<figure class="fig-half">
+  <img src="/assets/cento-passi.png" alt="I Cento Passi Poster" />
+</figure>
+<div class="clear"></div>
+
+<figure class="fig-half fig-left">
+  <img src="/assets/right-thing.png" alt="Do The Right Thing Poster" />
+</figure>
+<figure class="fig-half">
+  <img src="/assets/brazil.png" alt="Brazil Poster" />
+</figure>
+<div class="clear"></div>
+
+<figure class="fig-half fig-left">
+  <img src="/assets/fight-club.png" alt="Fight Club Poster" />
+</figure>
+<figure class="fig-half">
+  <img src="/assets/waltz.png" alt="Waltz With Bashir Poster" />
+</figure>
+<div class="clear"></div>
+
+<figure class="fig-half fig-left">
+  <img src="/assets/blues-brothers.png" alt="Blues Brothers Poster" />
+</figure>
+<figure class="fig-half">
+  <img src="/assets/hurt-locker.png" alt="The Hurt Locker Poster" />
+</figure>
+<div class="clear"></div>
+
+</div>

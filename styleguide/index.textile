@@ -1,0 +1,96 @@
+---
+layout: default
+title: Style Guide
+subtitle: A page with lots of elements to test the layout
+role: UI Design, HTML/CSS, Javascript
+client: Some guy
+year: 2014
+image: assets/thumbnails/misc.png
+category: ui
+---
+
+h1(page-title). {{ page.title }}
+
+h4(page-subtitle). {{ page.subtitle }}
+
+!(page-header-img)/assets/thumbnails/misc.png(header image)!
+
+<div class="text">
+
+p(smallinfo). _*Client:* {{ page.client }}
+*Role:* {{ page.role }}
+*Year:* {{ page.year }}_
+
+This page exists to test all the various elements and layout features of this site when developing and maintaining it.
+
+h2. Typography
+
+This is a normal paragraph, set in Fira Sans. Its content is not really important, it's just meant to show off how standard elements like "links":/ and _emphasized_ *text* look like.
+
+h2. Second-level Header
+
+Second-level headers separate the main sections in longer case studies. For example, when  various stages of a project are described in detail, they are structured using second-level headers.
+
+h3. Third-level Header
+
+Third-level headers are a used for structuring longer text inside second-level sections. They're not used very often though as that's not very common on this site.
+
+h4. Fourth-level Header
+
+Fouth-level headers are never actually used on this site but I'm including them here anyway to test the styling.
+
+This is an unordered list of stuff:
+
+* Interesting first point
+* Intriguing second point
+* Fascinating third point with more text to demonstrate how longer paragraphs look in this context. To make this paragraph even longer, here's a completely useless second sentence.
+* Amazing fourth point
+
+This, on the other hand, is an ordered list:
+
+# Interesting first point
+# Intriguing second point
+# Fascinating third point with more text to demonstrate how longer paragraphs look in this context. To make this paragraph even longer, here's a completely useless second sentence.
+# Amazing fourth point
+
+
+h2. Images
+
+Images can either be _full-width_ or _half-width_, with optional captions. All images are full-width on smaller breakpoints.
+
+Two half-width images with captions:
+
+<figure class="fig-half with-caption fig-left">
+  <img src="/assets/donnie-darko.png">
+  <figcaption>This is a caption below a half-width image.</figcaption>
+</figure>
+<figure class="fig-half with-caption">
+  <img src="/assets/hurt-locker.png">
+  <figcaption>This is a caption below a half-width image, and it's also very long and has lots of text in it to test how that affects the layout.</figcaption>
+</figure>
+<div class="clear"></div>
+
+Some more half-width images, without captions this time:
+
+<figure class="fig-half fig-left">
+  <img src="/assets/right-thing.png">
+</figure>
+<figure class="fig-half">
+  <img src="/assets/reservoir-dogs.png">
+</figure>
+<div class="clear"></div>
+
+This is a full-width image with a caption:
+
+<figure class="with-caption">
+  <img src="/assets/wide.png">
+  <figcaption>This is a caption below a full-width image, and it's also very long and has lots of text in it to test how that affects the layout.</figcaption>
+</figure>
+
+<figure>
+  <img src="/assets/wide.png">
+</figure>
+
+Above is a full-width image without a caption.
+
+</div>
