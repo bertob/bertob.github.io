@@ -33,7 +33,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 a {
   font-weight: 500;
-	color: #ea4e16;
   text-decoration: none;
 }
 a, .project-title {
@@ -267,6 +266,10 @@ figcaption {
   margin: 0.7em 0;
   color: #777;
   font-style: italic;
+}
+figure > a:hover {
+  box-shadow: none;
+  transition: none;
 }
 
 /* FOOTER */
