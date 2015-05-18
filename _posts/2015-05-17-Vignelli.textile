@@ -31,7 +31,7 @@ The idea was to combine the dynamic behavior of digital visualizations with the 
 
 Our prototype consists of an abstract map in the style of a subway map, which gives users a sense of place without being visually overwhelming. On this map, bus movements are visualized using real time position data. We use "D3.js":http://d3js.org in the browser to display the vector map and animate the bus movements on it.
 
-Ideally, we'd like every bus stop to be equipped with a high-resolution monitor, which displays realtime bus positions in this way. That's probably not going to happen anytime soon, but there is already an ongoing effort in Bolzano to set up monitors at a few key bus stops, so maybe it's not that far off.
+Ideally, we'd like every bus stop to be equipped with a high-resolution monitor, which displays realtime bus positions in this way. That's probably not going to happen anytime soon, but there is an ongoing effort in Bolzano to set up monitors at a few key bus stops, so maybe it's not that far off.
 Our hack is an exploration of what will be possible once this kind of infrastructure is in place.
 
 The project is named after design god "Massimo Vignelli":http://en.wikipedia.org/wiki/Massimo_Vignelli, whose 1973 "NYC Transit Map":http://cdn8.openculture.com/wp-content/uploads/2014/05/vignelli-subway-map-19721.jpg was a major inspiration for us.
