@@ -1,0 +1,41 @@
+---
+layout: default
+title: Vignelli
+subtitle: Visualization of bus movements
+role: Information Design, Frontend Develpoment
+year: 2015
+image: assets/thumbnails/vignelli.png
+category: informationdesign
+---
+
+h1(page-title). {{ page.title }}
+
+h4(page-subtitle). {{ page.subtitle }}
+
+!(page-header-img)/assets/thumbnails/vignelli.png(Header image showing part of a sreenshot of the dynamic visualization. The visualization consists of an abstract, simplified map of two bus lines, and the position of the buses currently active on these lines.)!
+
+<div class="text">
+
+p(smallinfo). _*Role:* {{ page.role }}
+*Year:* {{ page.year }}_
+
+"Vignelli":http://frac-tion.com/vignelli is a concept for a dynamic information system for bus stops by "Julian Sparber":juliansparber.com and myself. We built it at the May 2015 edition of "hackathon.bz.it":http://hackathon.bz.it in Bolzano.
+
+The idea was to combine the dynamic behavior of digital visualizations with the immediate visibility and ease of use of physical signage at bus stops. This gives users quick and easy access to a lot of contextual information, which helps them make better decisions about their use of public transport.
+
+<figure class="with-caption">
+  <img src="/assets/vignelli_map.svg" alt="Sreenshot of the dynamic visualization. It shows an abstract, simplified map (only straight lines and 90° angles) of two bus lines, and the position of the buses currently active on these lines. The background is a dark gray, the lines are thin, orthogonal lines in red and cyan, bus stops are small white dots on the lines, and the buses are large circles in the color of the respective line." />
+  <figcaption>Screenshot of the full visualization. Check out the much cooler <a href="http://frac-tion.com/vignelli">live version</a>. </figcaption>
+
+</figure>
+
+Our prototype consists of an abstract map in the style of a subway map, which gives users a sense of place without being visually overwhelming. On this map, bus movements are visualized using real time position data. We use "D3.js":http://d3js.org in the browser to display the vector map and animate the bus movements on it.
+
+Ideally, we'd like every bus stop to be equipped with a high-resolution monitor, which displays realtime bus positions in this way. That's probably not going to happen anytime soon, but there is already an ongoing effort in Bolzano to set up monitors at a few key bus stops, so maybe it's not that far off.
+Our hack is an exploration of what will be possible once this kind of infrastructure is in place.
+
+The project is named after design god "Massimo Vignelli":http://en.wikipedia.org/wiki/Massimo_Vignelli, whose 1973 "NYC Transit Map":http://cdn8.openculture.com/wp-content/uploads/2014/05/vignelli-subway-map-19721.jpg was a major inspiration for us.
+
+You can "try it for yourself":http://frac-tion.com/vignelli or get the code on "Github":https://github.com/frac-tion/vignelli.
+
+</div>
