@@ -2,7 +2,7 @@
 layout: default
 title: Dynasty
 subtitle: Visualization tool for succession timelines
-role: Information Design, Frontend Develpoment
+role: Information Design, Frontend Development
 year: 2014
 image: assets/thumbnails/dynasty.png
 category: informationdesign

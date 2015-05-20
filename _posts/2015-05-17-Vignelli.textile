@@ -2,7 +2,7 @@
 layout: default
 title: Vignelli
 subtitle: Visualization of bus movements
-role: Information Design, Frontend Develpoment
+role: Information Design, Frontend Development
 year: 2015
 image: assets/thumbnails/vignelli.png
 category: informationdesign
