@@ -33,7 +33,7 @@ h3. Flying Sheep (2013)
 Logo for Flying Sheep, a group of filmmakers from Bolzano, Italy. The name comes from a Monty Python sketch from 1969, part of the television series "Monty Python's Flying Circus".
 
 <figure>
-  <img src="/assets/flying-sheep.png" alt="Flying Sheep">
+  <img src="/assets/flying-sheep.svg" alt="Flying Sheep">
 </figure>
 
 
