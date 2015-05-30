@@ -4,7 +4,7 @@ title: Unibz Movie Night
 subtitle: Series of movie posters
 client: Unibz Movie Night
 role: Poster & Identity Design
-year: 2014
+year: 2014–2015
 image: assets/thumbnails/movienight.png
 category: print
 ---
@@ -22,65 +22,59 @@ p(smallinfo). *Role:* {{ page.role }}
 
 _Unibz Movie Night_ is a student event at the Free University of Bolzano organized by the student organization Kikero.
 
-During the spring semester of 2014, there were 14 movie screenings on a more or less weekly basis. I designed custom posters for each of the screenings, which were used to promote the events throughout the university and online.
+Between March 2014 and June of 2015 there were 37 movie screenings on a more or less weekly basis. For each of the screenings, I designed a custom poster which was used to promote the event throughout the university and online.
 
-It was a fun project for me, because I had creative control over practically everything; from the identity, to the layout, to the individual illustrations on the posters.
+It was a fun project for me, because we had creative control over practically everything; from the identity, to the layout, to the individual illustrations on the posters. We even managed to get the Kikero logo changed to fit in better with our posters (If you look closely, you'll notice that the season 3 posters have a slightly different logo in the bottom right).
 
 The process of printing the posters regularly was also interesting. It definitely made me appreciate the web as a medium more, where jammed printers, color profiles and the like aren't an issue.
 
+Here's a selection of some of my favorites, for the complete series check out this "PDF with all the posters":/assets/movienight-posters.pdf.
+
 <figure class="fig-half fig-left">
-  <img src="/assets/reservoir-dogs.png" alt="Reservoir Dogs Poster" />
+  <img src="/assets/snatch.png" alt="Snatch poster" />
 </figure>
 <figure class="fig-half">
-  <img src="/assets/strangelove.png" alt="Dr. Strangelove Poster" />
+  <img src="/assets/reservoirdogs.png" alt="Reservoir Dogs poster" />
 </figure>
 <div class="clear"></div>
 
 <figure class="fig-half fig-left">
-  <img src="/assets/drive.png" alt="Drive Poster" />
+  <img src="/assets/socialnetwork.png" alt="The Social Network poster" />
 </figure>
 <figure class="fig-half">
-  <img src="/assets/memento.png" alt="Memento Poster" />
+  <img src="/assets/hurtlocker.png" alt="The Hurt Locker poster" />
 </figure>
 <div class="clear"></div>
 
 <figure class="fig-half fig-left">
-  <img src="/assets/gold-rush.png" alt="Gold Rush Poster" />
+  <img src="/assets/grandbudapest.png" alt="The Grand Budapest Hotel poster" />
 </figure>
 <figure class="fig-half">
-  <img src="/assets/brick.png" alt="Brick Poster" />
+  <img src="/assets/moon.png" alt="Moon poster" />
 </figure>
 <div class="clear"></div>
 
 <figure class="fig-half fig-left">
-  <img src="/assets/donnie-darko.png" alt="Donnie Darko Poster" />
+  <img src="/assets/inception.png" alt="Inception poster" />
 </figure>
 <figure class="fig-half">
-  <img src="/assets/cento-passi.png" alt="I Cento Passi Poster" />
+  <img src="/assets/slcpunk.png" alt="I SLC Punk poster" />
 </figure>
 <div class="clear"></div>
 
 <figure class="fig-half fig-left">
-  <img src="/assets/right-thing.png" alt="Do The Right Thing Poster" />
+  <img src="/assets/dotherightthing.png" alt="Do The Right Thing Poster" />
 </figure>
 <figure class="fig-half">
-  <img src="/assets/brazil.png" alt="Brazil Poster" />
+  <img src="/assets/rope.png" alt="Rope poster" />
 </figure>
 <div class="clear"></div>
 
 <figure class="fig-half fig-left">
-  <img src="/assets/fight-club.png" alt="Fight Club Poster" />
+  <img src="/assets/matrix.png" alt="Matrix poster" />
 </figure>
 <figure class="fig-half">
-  <img src="/assets/waltz.png" alt="Waltz With Bashir Poster" />
-</figure>
-<div class="clear"></div>
-
-<figure class="fig-half fig-left">
-  <img src="/assets/blues-brothers.png" alt="Blues Brothers Poster" />
-</figure>
-<figure class="fig-half">
-  <img src="/assets/hurt-locker.png" alt="The Hurt Locker Poster" />
+  <img src="/assets/her.png" alt="Her poster" />
 </figure>
 <div class="clear"></div>
 
