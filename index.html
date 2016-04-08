@@ -1,18 +1,118 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
 
-      <h2 class="intro hero">I’m a designer and developer interested in user experience and information design.</h2>
-      <h4 class="intro hero-sub">I like solving problems, software freedom, and the open web. You can check out my work on <a href="https://dribbble.com/tobiasbernard">Dribbble</a>, <a href="https://github.com/bertob">GitHub</a> or below.</h4>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tobias Bernard</title>
+  <meta name="theme-color" content="#ccc">
+  <link rel="canonical" href="http://tobiasbernard.com/">
 
-      <h4 class="intro hero-sub">I’m always looking for new challenges. If there’s an idea you’d like to discuss, feel free to <a href="mailto:hi@tobiasbernard.com">get in touch</a>.</h4>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="fonts/fira.css">
 
-      {% for post in site.posts %}
-      <a href="{{ post.url | prepend: site.baseurl }}">
-        <div class="project">
-          <img class="project-img" src="{{ post.image }}">
-          <h4 class="project-title">{{ post.title }}</h4>
-          <h5 class="project-subtitle">{{ post.subtitle }}</h5>
-        </div>
+  <link rel="icon" type="image/png" href="/favicon.png" />
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h2 class="intro">
+      <a href="/">Tobias Bernard</a> designs and builds things, on and off the&nbspweb.
+    </h2>
+
+    <p class="links">You can find me on <a href="https://github.com/bertob">Github</a>, <a href="https://dribbble.com/tobiasbernard">Dribbble</a>, <a href="https://twitter.com/tobias_bernard">Twitter</a>, or <a href="mailto:hi@tobiasbernard.com">email&nbspme</a>.</p>
+
+    <div class="project small-thumb smaller">
+      <div class="description">
+        <p>Currently, I'm exploring an idea called <em>semantic animation</em>, a new approach to designing animated interfaces. I co-wrote an article for <em>A List Apart</em> about it.</p>
+        <a href="https://alistapart.com/article/motion-with-meaning-semantic-animation-in-interface-design">Read the article</a>
+      </div>
+      <a class="project-link" href="https://alistapart.com/article/motion-with-meaning-semantic-animation-in-interface-design">
+        <img class="shadow" src="assets/ala.png">
       </a>
-      {% endfor %}
+    </div>
+
+    <div class="project">
+      <div class="description">
+        <p>I applied many of the principles of semantic animation to a futuristic interface prototype for ordering food at restaurants. It was designed for a demo on a 60" touch table, but since it's built with web technologies, you can experience it from the comfort of your browser.</p>
+        <a href="http://tobiasbernard.com/restaurant">Try the prototype</a>
+      </div>
+      <a class="project-link" href="http://tobiasbernard.com/restaurant">
+        <img class="" src="assets/restaurant.png">
+      </a>
+    </div>
+
+    <hr>
+
+    <p>I'm also very interested in designing explanations—especially using visualization and interactivity to make abstract concepts and relationships understandable.</p>
+
+    <div class="project">
+      <div class="description">
+        <p>As part of my <a href="assets/thesis.pdf">bachelor thesis</a> I built a data analysis tool that enables fast visual comparisons across large datasets.</p>
+        <a href="http://tobiasbernard.com/thermostat">Try the prototype</a>
+      </div>
+      <a class="project-link" href="http://tobiasbernard.com/thermostat">
+        <img class="shadow" src="assets/thermo.png">
+      </a>
+    </div>
+
+    <hr>
+
+    <p>Other interesting things I've built:</p>
+
+    <div class="project">
+      <div class="description">
+        <p><a href="http://tobiasbernard.com/yeswecan">Yes We Can</a>—All the <a href="http://caniuse.com">Can I Use</a> browser support data, at a glance.</p>
+      </div>
+      <a class="project-link" href="http://tobiasbernard.com/yeswecan">
+        <img class="shadow" src="assets/yeswecan.png">
+      </a>
+    </div>
+
+    <div class="project small-thumb">
+      <div class="description">
+        <p><a href="http://tobiasbernard.com/connection">Connection</a>—A small game that brings people together. There's also a <a href="assets/connection.pdf">PDF version</a> for offline use.</p>
+      </div>
+      <a class="project-link" href="http://tobiasbernard.com/connection">
+        <img src="assets/connection.png">
+      </a>
+    </div>
+
+    <div class="project small-thumb">
+      <div class="description">
+        <p><a href="http://tobiasbernard.com/dynasty">Dynasty</a>—Tool for generating visualizations of succession timelines (e.g. all the roman emperors).</p>
+      </div>
+      <a class="project-link" href="http://tobiasbernard.com/dynasty">
+        <img class="shadow" src="assets/dynasty.svg">
+      </a>
+    </div>
+
+    <div class="small-thumb">
+      <div class="description">
+        <p><a href="https://github.com/frac-tion/vignelli">Vignelli</a>—Prototype real-time information system for bus stops, a collaboration with <a href="http://juliansparber.com">Julian Sparber</a>.</p>
+      </div>
+      <a class="project-link" href="https://github.com/frac-tion/vignelli">
+        <img src="assets/vignelli.png">
+      </a>
+    </div>
+
+    <hr>
+
+    <p>I also do branding, illustration, and other fun visual things from time to time. You can find some of that stuff on <a href="https://dribbble.com/tobiasbernard">Dribbble</a>.</p>
+
+    <a class="project-link" href="https://dribbble.com/tobiasbernard">
+      <img src="assets/drib.png">
+    </a>
+
+    <footer>
+      &copy; <a href="http://tobiasbernard.com">Tobias Bernard</a> 2016
+    </footer>
+
+  </div>
+
+</body>
+
+</html>
