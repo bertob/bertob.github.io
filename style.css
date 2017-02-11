@@ -88,6 +88,10 @@ hr {
   font-size: 1.5em;
   max-width: 460px;
 }
+.title {
+  margin: 3rem 0 2rem;
+  font-size: 1.5em;
+}
 .links {
   margin-bottom: 2rem;
 }
