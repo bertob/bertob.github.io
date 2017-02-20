@@ -88,6 +88,11 @@ hr {
   font-size: 1.5em;
   max-width: 460px;
 }
+@media screen and (min-width: 1000px) and (min-height: 800px) {
+  .intro {
+    max-width: 500px;
+  }
+}
 .title {
   margin: 3rem 0 2rem;
   font-size: 1.5em;
