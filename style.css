@@ -119,8 +119,9 @@ p, li {
   /* \00a0\00a0 is a non-breaking space  */
   content: "\00a0\00a0→";
 }
-.link-button:first-of-type {
-  margin-right: 1rem;
+.link-button:last-of-type {
+  display: table;
+  margin-bottom: 2rem;
 }
 
 /* ONE-OFF COMPONENTS */
