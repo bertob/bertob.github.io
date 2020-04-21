@@ -172,7 +172,7 @@ p, li {
   max-width: 460px;
 }
 @media (min-width: 1000px)
-       (min-height: 800px) {
+   and (min-height: 800px) {
   .intro {
     max-width: 500px;
   }
