@@ -160,8 +160,8 @@ p, li {
   margin-bottom: 2rem;
   background: linear-gradient(0deg, #63d4c3 -15%, #9df5ce 80%);
 }
-@media screen and (min-width: 800px)
-              and (min-height: 500px) {
+@media (min-width: 800px)
+   and (min-height: 500px) {
   .intro-container {
     padding: 1rem 0 8rem;
   }
@@ -171,8 +171,8 @@ p, li {
   font-size: 1.5em;
   max-width: 460px;
 }
-@media screen and (min-width: 1000px)
-              and (min-height: 800px) {
+@media (min-width: 1000px)
+       (min-height: 800px) {
   .intro {
     max-width: 500px;
   }
@@ -208,7 +208,7 @@ p, li {
   display: block;
   width: 64px;
 }
-@media screen and (min-width: 500px) {
+@media (min-width: 500px) {
   .appicon-grid {
     column-gap: calc((100% - (4*96px))/3);
   }
@@ -217,7 +217,7 @@ p, li {
     width: 96px;
   }
 }
-@media screen and (min-width: 680px) {
+@media (min-width: 680px) {
   .appicon-grid {
     column-gap: calc((100% - (4*128px))/3);
   }
@@ -242,7 +242,7 @@ p, li {
   width: 70%;
   margin: 0 auto;
 }
-@media screen and (min-width: 600px) {
+@media (min-width: 600px) {
   .sidebyside-container {
     display: flex;
     justify-content: center;
