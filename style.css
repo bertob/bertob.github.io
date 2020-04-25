@@ -17,6 +17,11 @@
 }
 
 /* RESET & TYPOGRAPHY */
+:root {
+  --text: #333;
+  --link-text: #0eae8b;
+  --link-bg: rgba(177, 240, 225, 0.4);
+}
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -33,7 +38,7 @@ html, body {
   word-spacing: -0.03em;
 }
 body {
-	color: #333;
+	color: var(--text);
 	background-color: #fff;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -55,15 +60,15 @@ a {
   padding: 0 0.2em;
   font-weight: 600;
   text-decoration: none;
-  color: #0eae8b;
-  box-shadow: 0 0 0 0 rgba(177, 240, 225, 0.4);
-  background-color: rgba(177, 240, 225, 0.4);
+  color: var(--link-text);
+  box-shadow: 0 0 0 0 var(--link-bg);
+  background-color: var(--link-bg);
   border-radius: 5px;
   cursor: pointer;
   transition: box-shadow 0.35s cubic-bezier(0.17, 0.89, 0.32, 1.28);
 }
 a:hover {
-  box-shadow: 0 0 0 4px rgba(177, 240, 225, 0.4);
+  box-shadow: 0 0 0 4px var(--link-bg);
 }
 a:active {
   transform: scale(0.95);
@@ -72,7 +77,7 @@ a:not(.link-button)::after {
   /* animated underline */
   content: "";
   height: 2px;
-  background-color: #0eae8b;
+  background-color: var(--link-text);
   position: absolute;
   width: 0;
   bottom: 0;
@@ -134,10 +139,10 @@ p, li {
   padding: 0.2em 0.5em;
   border-radius: 99999px;
   font-weight: 700;
-  box-shadow: 0 0 0 0 rgba(177, 240, 225, 0.4);
+  box-shadow: 0 0 0 0 var(--link-bg);
 }
 .link-button:hover {
-  box-shadow: 0 0 0 6px rgba(177, 240, 225, 0.4);
+  box-shadow: 0 0 0 6px var(--link-bg);
   transform: scale(1.02);
   text-decoration: none;
 }
