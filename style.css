@@ -179,7 +179,8 @@ p, li {
 @media (min-width: 1000px)
    and (min-height: 800px) {
   .intro {
-    max-width: 500px;
+    max-width: 100%;
+    font-size: 2em;
   }
 }
 .intro-name {
