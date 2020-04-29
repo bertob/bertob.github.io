@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   id="svg10352"
+   version="1.1"
+   viewBox="0 0 47.624996 47.624996"
+   height="179.99998"
+   width="179.99998">
+  <defs
+     id="defs10346">
+    <linearGradient
+       id="linearGradient1970">
+      <stop
+         style="stop-color:#9df5ce;stop-opacity:1;"
+         offset="0"
+         id="stop1966" />
+      <stop
+         style="stop-color:#63d4c3;stop-opacity:1"
+         offset="1"
+         id="stop1968" />
+    </linearGradient>
+    <linearGradient
+       y2="246.77144"
+       x2="2234.5117"
+       y1="56.488281"
+       x1="2234.5117"
+       gradientTransform="matrix(0.01693333,0,0,0.01693333,51.356381,82.594754)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient887"
+       xlink:href="#linearGradient1970" />
+  </defs>
+  <metadata
+     id="metadata10349">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="matrix(11.249998,0,0,11.249998,-399.80181,-264.24522)"
+     id="g892">
+    <rect
+       y="23.488468"
+       x="35.537945"
+       height="4.2333336"
+       width="4.2333336"
+       id="rect856-7"
+       style="fill:#ffffff;stroke-width:0.372478;stroke-linecap:round;stroke-linejoin:round" />
+    <g
+       transform="matrix(0.74999999,0,0,0.74999999,-29.247175,-38.461827)"
+       id="layer1-5"
+       style="stroke-width:1.33333">
+      <rect
+         ry="44.097225"
+         rx="44.097225"
+         y="83.305954"
+         x="87.085716"
+         height="4.2333331"
+         width="4.2333331"
+         id="rect10329-3"
+         style="fill:url(#linearGradient887);fill-opacity:1;stroke-width:0.705556;stroke-linecap:round;stroke-linejoin:round" />
+    </g>
+  </g>
+</svg>
