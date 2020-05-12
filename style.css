@@ -118,6 +118,14 @@ p, li {
   max-width: 100%;
   margin: 1rem auto 0;
 }
+.app-screenshot {
+  margin: -1.5rem auto 0;
+}
+@media (min-width: 680px) {
+  .app-screenshot {
+    margin-left: -20px;
+  }
+}
 .rounded-corners {
   border-radius: 5px;
 }
@@ -192,7 +200,7 @@ p, li {
 .adaptive-apps-video {
   display: block;
   max-width: 908px;
-  margin: 1rem auto;
+  margin: -2rem auto 1rem;
 }
 .icon-shadow {
   filter: /* Sharp drop shadow */
