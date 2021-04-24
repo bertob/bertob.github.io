@@ -197,6 +197,22 @@ p, li {
   padding: 0;
   font-weight: 800;
 }
+.laptop-container {
+	margin: -1rem auto 3rem;
+	position: relative;
+  max-width: 800px;
+}
+.laptop {
+	width: 100%;
+}
+.laptop-screenshot {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 80%;
+	transform: translateX(-50%) translateY(7%) scale(0.97);
+	border-radius: 4px;
+}
 .adaptive-apps-video {
   display: block;
   max-width: 908px;
