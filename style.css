@@ -289,3 +289,18 @@ footer {
 	margin: 5em 0 2em;
 	font-size: 1em;
 }
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --text: rgba(255,255,255,0.94);
+    --link-text: #9df5ce;
+    --link-bg: #9df5ce22;
+  }
+  body {
+  	background-color: #101010;
+  }
+  .intro-container {
+    background: linear-gradient(0deg, #2e9078 -15%, #54d69d 80%);
+    color: white;
+  }
+} */
