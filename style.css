@@ -264,7 +264,6 @@ p, li {
   max-height: 16rem;
   object-fit: contain;
   background-color: #201a26;
-  border-radius: 5px;
 }
 .city-sidebyside {
   display: block;
