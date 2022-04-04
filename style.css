@@ -119,11 +119,21 @@ p, li {
   margin: 1rem auto 0;
 }
 .app-screenshot {
-  margin: -1.5rem auto 0;
+  margin: -1rem auto 0;
+  transform: scale(1.2);
 }
-@media (min-width: 680px) {
-  .app-screenshot {
-    margin-left: -20px;
+/* Wider screenshots need some extra top margin */
+.app-screenshot.wide {
+  margin-top: 0;
+}
+@media (min-width: 650px) {
+  .app-screenshot,
+  .app-screenshot.wide {
+    max-width: inherit;
+    margin-left: -60px;
+    margin-top: -60px;
+    margin-bottom: -60px;
+    transform: scale(1);
   }
 }
 .rounded-corners {
