@@ -225,8 +225,11 @@ p, li {
 }
 .adaptive-apps-video {
   display: block;
-  max-width: 908px;
-  margin: -2rem auto 1rem;
+  max-width: 1002px;
+  margin: calc(-2rem - 30px) auto -3rem;
+}
+.adaptive-apps-video.dark {
+  display: none;
 }
 .icon-shadow {
   filter: /* Sharp drop shadow */
@@ -299,7 +302,7 @@ footer {
 	font-size: 1em;
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   :root {
     --text: rgba(255,255,255,0.94);
     --link-text: #9df5ce;
@@ -312,4 +315,13 @@ footer {
     background: linear-gradient(0deg, #2e9078 -15%, #54d69d 80%);
     color: white;
   }
-} */
+  .intro {
+    color: black;
+  }
+  .adaptive-apps-video.light {
+    display: none;
+  }
+  .adaptive-apps-video.dark {
+    display: block;
+  }
+}
