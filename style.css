@@ -226,7 +226,12 @@ p, li {
 .adaptive-apps-video {
   display: block;
   max-width: 1002px;
-  margin: calc(-2rem - 30px) auto -3rem;
+  margin: -2rem auto -3rem;
+}
+@media (min-width: 850px) {
+  .adaptive-apps-video {
+    margin-top: calc(-2rem - 30px);
+  }
 }
 .adaptive-apps-video.dark {
   display: none;
