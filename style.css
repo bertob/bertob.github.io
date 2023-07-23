@@ -155,7 +155,7 @@ p, li {
   display: inline-block;
   margin: 0.3rem 0;
   padding: 0.2em 1em;
-  border-radius: 99999px;
+  border-radius: 1em;
   font-weight: 700;
   box-shadow: 0 0 0 0 var(--link-bg);
 }
