@@ -175,9 +175,6 @@ p, li {
 .link-button:active {
   transform: scale(0.96);
 }
-.dark-content {
-  display: none;
-}
 
 /* ONE-OFF COMPONENTS */
 .intro-container {
@@ -209,6 +206,13 @@ p, li {
   background: none;
   padding: 0;
   font-weight: 800;
+}
+.circle-screenshot {
+  display: block;
+  max-width: 1000px;
+  width: 100%;
+  margin: -1em auto 0;
+  border-radius: 5px;
 }
 .laptop-container {
 	margin: -1rem auto 3rem;
@@ -301,6 +305,9 @@ p, li {
   .city-sidebyside {
     margin: 0;
   }
+}
+.dark-content {
+  display: none;
 }
 
 /* FOOTER */
