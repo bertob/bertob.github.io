@@ -175,6 +175,9 @@ p, li {
 .link-button:active {
   transform: scale(0.96);
 }
+.dark-content {
+  display: none;
+}
 
 /* ONE-OFF COMPONENTS */
 .intro-container {
@@ -327,6 +330,12 @@ footer {
     display: none;
   }
   .adaptive-apps-video.dark {
+    display: block;
+  }
+  .light-content {
+    display: none;
+  }
+  .dark-content {
     display: block;
   }
 }
