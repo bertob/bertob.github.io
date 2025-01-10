@@ -175,6 +175,15 @@ p, li {
 .link-button:active {
   transform: scale(0.96);
 }
+.year-timestamp {
+  display: inline-block;
+  font-size: 0.8em;
+  font-weight: 800;
+  color: var(--link-text);
+}
+.year-timestamp + p {
+  margin-top: 0.1em;
+}
 
 /* ONE-OFF COMPONENTS */
 .intro-container {
