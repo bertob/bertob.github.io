@@ -181,7 +181,7 @@ p, li {
   color: var(--link-text);
 }
 .year-timestamp + p {
-  margin-top: 0.1em;
+  margin-top: 0.4em;
 }
 
 /* ONE-OFF COMPONENTS */
