@@ -111,6 +111,7 @@ p, li {
 }
 .project {
   margin: 3rem 0 3rem;
+  overflow: hidden;
 }
 
 /* SHARED COMPONENTS */
